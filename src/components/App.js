@@ -36,6 +36,9 @@ const App = () => {
   return (
     <div id="main">
                {/* Do not remove the main div */}
+               {
+                cityList.map(city => <h1>{city.name}</h1>)
+               }
     </div>
   )
 }
